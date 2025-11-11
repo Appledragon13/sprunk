@@ -5,4 +5,4 @@ class armor:
         self.resitance = resitance
         self.invulnerability = invulnerability
         
-leather = armor(name = "Leather Armor", defense = 2)
+leather = armor(name = "Leather Armor", defense = 2, resitance= "None", invulnerability="None")

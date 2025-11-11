@@ -3,19 +3,15 @@
 '''
 
 #important imports
-from gameItems import armors
-from gameItems import healingItems
-from gameItems import misc_equipment
-from gameItems import weapons
 from gameItems import classes
 
 # Pick a class
 print("Pick a class from the list")
-print("1. Kingt")
+print("1. Knight")
 playerClass = input()
 
-if playerClass == "1" or playerClass.lower() == "kight":
+if playerClass == "1" or playerClass.lower() == "knight":
     playerClass = classes.knight
-    print(playerClass)
+    print(playerClass.name)
 
 # Stats
